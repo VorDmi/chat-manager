@@ -158,4 +158,4 @@ vk.updates.hear(/^(?:!kick|!кик)$/i, async (context) => {
     context.send(`@id${reply.id}(Пользователь) был кикнут из беседы`);
 })
 
-vk.updates.startPolling();
+vk.updates.start().catch(console.error);
