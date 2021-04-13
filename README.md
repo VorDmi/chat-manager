@@ -3,7 +3,7 @@
 
 ### Установка
 ```
-git clone https://github.com/VorDmi/chat-manager
+git clone https://github.com/V0rDm1/chat-manager
 cd chat-manager
 npm install
 ```
